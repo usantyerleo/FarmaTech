@@ -1,0 +1,180 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #005095;
+  height: 84px;
+}
+
+.navbar img {
+  margin: 91px;
+  width: 255px;
+}
+
+.barra-pesquisa input[type="search"] {
+  width: 589px;
+  padding: 10px 40px 10px 10px;
+  font-size: 14px;
+}
+
+.img-perfil {
+  margin: 90px;
+}
+
+.img-perfil img {
+  margin: 40px;
+  height: 24px;
+  width: 24px;
+}
+
+.categorias {
+  display: flex;
+  align-items: center;
+}
+
+.categorias a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.categorias img {
+  margin: 90px;
+  margin-right: 8px;
+  height: 24px;
+  width: 24px;
+}
+
+.menu {
+  margin: 91px;
+}
+
+.navbar2 {
+  display: flex;
+  align-items: center;
+  background-color: #008BD2;
+  height: 48px;
+}
+
+.navbar2 ul {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  margin-left: auto;
+  margin: -120px;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar2 ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    padding: 8px 16px; 
+    margin: -16px;
+}
+/*---------------------Remédios-----------------*/
+
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  .retangulo1, .retangulo2, .retangulo3, .retangulo4 {
+    width: 200px;
+    height: 296px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    margin: 70px; 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+  }
+    .retangulo5, .retangulo6, .retangulo7, .retangulo8 {
+    width: 200px;
+    height: 296px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    margin: 70px; 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .remedios img{
+   height: 183px;
+   width: 200px;
+  }
+
+  p {
+    font-size: 19px;
+    margin: 10px;
+  }
+
+  button {
+    width: 90px;
+    height: 31px;
+    margin-left: 90px;
+    margin-top: -40px;
+    border-radius: 10px;
+    color: #008BD2;
+    border: 2px solid #008BD2; 
+  }
+
+
+/*---------------------Rodapé-----------------*/
+footer {
+  bottom: 0;
+  width: 100%;
+  min-height: 201px;
+  background: #005095;
+  display: flex;
+}
+
+ h3 {
+  color: #fff;
+  margin-left: 80px;
+}
+
+.contatos1 ul li,
+.contatos2 ul li,
+.contatos3 ul li {
+  list-style-type: none;
+  color: #fff; 
+}
+.contatos2 ul li,
+.contatos3 ul li { 
+margin-left: 40px;
+}
+
+.contatos1 ul a,
+.contatos2 ul a,
+.contatos3 ul a {
+  color: #fff; 
+  text-decoration: none; 
+}
+
+.contatos1 ul {
+  margin-left: 42px; 
+}
+
+.logo2{
+    margin: 30px;
+    margin-left: 90px;
+    width: 285px;
+}
+
+.redes{
+    margin: 20px;
+    display: flex;  
+    gap: 10px; 
+}
+
+.redes img{
+    margin: 15px;
+    height: 35px;
+    margin-right: -10px;
+}
