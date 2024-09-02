@@ -52,9 +52,11 @@ function atualizarCarrinho(carrinho) {
 
         div.innerHTML = `
             <img src="/FarmaTech/Imagens/${item.img}" alt="${item.nome}">
-            <span>${item.nome}</span>
-            <span>R$ ${item.preco.toFixed(2)}</span>
-            <button class="remover" onclick="removerDoCarrinho(${item.id})">Remover</button>
+            <span class="nome-produto">${item.nome}</span>
+            <span class="preco-produto">R$ ${item.preco.toFixed(2)}</span>
+            <a href="#" class="remover" onclick="removerDoCarrinho(${item.id})">
+                <img src="/FarmaTech/Imagens/botaoRemover.jpeg" alt="Remover Item" class="icone-remover">
+            </a>
         `;
 
         carrinhoContainer.appendChild(div);
