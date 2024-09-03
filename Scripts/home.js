@@ -41,3 +41,6 @@ function addToCart(productId) {
         localStorage.setItem("cart", JSON.stringify(cart));
     }
 }
+
+
+  
