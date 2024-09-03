@@ -122,8 +122,13 @@ body {
     border-radius: 10px;
     color: #008BD2;
     border: 2px solid #008BD2; 
-  }
+    cursor: pointer;
 
+  }
+  
+  button:hover{
+    background-color: #ffffff;
+  }
 
 /*---------------------Rodapé-----------------*/
 footer {

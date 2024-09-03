@@ -9,9 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Adiciona o produto ao carrinho
             addToCart(productId);
-
-            // Redireciona para a página do carrinho
-            window.location.href = "/FarmaTech/paginas/carrinho.html";
+             
+            
         });
     });
 });
@@ -39,5 +38,8 @@ function addToCart(productId) {
         cart.push(product);
         // Atualiza o localStorage com o novo carrinho
         localStorage.setItem("cart", JSON.stringify(cart));
+ 
     }
+    alert(`Produto adicionado ao carrinho:\nNome: ${product.nome}\nPreço: R$ ${product.preco.toFixed(2)}`);
 }
+
