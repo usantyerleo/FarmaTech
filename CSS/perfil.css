@@ -1,0 +1,279 @@
+/*---------------------header-----------------*/
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #005095;
+  height: 84px;
+}
+
+.navbar img {
+  margin: 91px;
+  width: 255px;
+}
+
+.barra-pesquisa input[type="search"] {
+  width: 589px;
+  padding: 10px 40px 10px 10px;
+  font-size: 14px;
+}
+
+.img-perfil {
+  margin: 90px;
+}
+
+.img-perfil img {
+  margin: 40px;
+  height: 24px;
+  width: 24px;
+}
+
+.categorias {
+  display: flex;
+  align-items: center;
+}
+
+.categorias a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.categorias img {
+  margin: 90px;
+  margin-right: 8px;
+  height: 24px;
+  width: 24px;
+}
+
+.menu {
+  margin: 91px;
+}
+
+.navbar2 {
+  display: flex;
+  align-items: center;
+  background-color: #008BD2;
+  height: 48px;
+}
+
+.navbar2 ul {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  margin-left: auto;
+  margin: -120px;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar2 ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    padding: 8px 16px; 
+    margin: -16px;
+}
+/*---------------------Main-----------------*/
+
+/* parte 1 */
+
+.profile-container-wrapper {
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px auto;
+  max-width: 1200px;
+  height: 500px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px; 
+  height: 500px;
+}
+.profile-section-1 img{
+  width: 156px;
+  height: 156px;
+}
+.profile-section-1 {
+  background-color: #EDEDED;
+  padding: 20px;
+  border-radius: 10px;
+  width: 20%; 
+}
+
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile-menu ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.profile-menu ul li {
+  margin-bottom: 20px; 
+}
+
+.profile-menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+
+}
+
+/* parte 2 */
+
+.profile-section-2 {
+  background-color: #EDEDED;
+  padding: 20px;
+  border-radius: 10px;
+  width: 55%; 
+}
+.profile-section-2-container {
+  background-color: #EDEDED;
+  padding: 20px;
+  border-radius: 10px;
+  width: 55%; 
+}
+
+.profile-section-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  column-gap: 200px;
+  
+}
+
+.profile-section-2 .column-1 {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.profile-section-2 .column-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-section-2 label {
+  color: #000; 
+  font-weight: bold;
+}
+
+.profile-section-2 .info {
+  color: #7d7d7d;
+  margin-top: 10px; 
+  width: 150px;
+}
+
+/* parte 3 */
+
+.profile-section-3 {
+  background-color: #EDEDED;
+  padding: 10px; 
+  border-radius: 10px;
+  width: 403px;
+  height: 213px;
+}
+.profile-section-3 h2{
+  margin: 20px;
+}
+
+.profile-section-3 form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.newsletter-option1 label {
+  color: #575757;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.newsletter-option2  {
+margin-left: 20px;
+font-size: 22px;
+margin-top: 20px;
+}
+
+.newsletter-option input {
+  margin-left: 10px;
+}
+.seta{
+  margin-left: 15px;
+  display: inline-block;
+  margin-right: 8px; 
+  height: 18px;
+
+}
+.voltar{
+  margin-top: 10px;
+}
+/*---------------------footer-----------------*/
+
+footer {
+  bottom: 0;
+  width: 100%;
+  min-height: 201px;
+  background: #005095;
+  display: flex;
+}
+
+ h3 {
+  color: #fff;
+  margin-left: 80px;
+}
+
+.contatos1 ul li,
+.contatos2 ul li,
+.contatos3 ul li {
+  list-style-type: none;
+  color: #fff; 
+}
+.contatos2 ul li,
+.contatos3 ul li { 
+margin-left: 50px;
+}
+
+.contatos1 ul a,
+.contatos2 ul a,
+.contatos3 ul a {
+  color: #fff; 
+  text-decoration: none; 
+}
+
+.contatos1 ul {
+  margin-left: 42px; 
+}
+
+.logo2{
+    margin: 30px;
+    margin-left: 90px;
+    width: 285px;
+}
+
+.redes{
+    margin: 20px;
+    display: flex;  
+    gap: 10px; 
+}
+
+.redes img{
+    margin: 15px;
+    height: 35px;
+    margin-right: -10px;
+}

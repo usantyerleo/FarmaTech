@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/CSS/pedidos.css">
+    <script src="/Scripts/home.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <section class="navbar">
+            <a href="/paginas/home.html">
+                <img src="/Imagens/logo.png" alt="logo">
+            </a>
+            <form action="/buscar" method="get" class="barra-pesquisa">
+                <input type="search" name="pesquisa" placeholder="O que deseja encontrar?">
+            </form>
+            <div class="categorias">
+                <a href="#minhaConta">
+                    <img src="/Imagens/perfil.png" alt="perfil"> Minha<br> Conta
+                </a>
+                <a href="/paginas/carrinho.html">
+                    <img src="/Imagens/carrinho.png" alt="cesta"> Cesta
+                </a>
+        </section>
+        <section class="navbar2">
+            <a href="" class="menu">
+                <img src="/Imagens/menu.png" alt="menu">
+            </a>
+            <ul>
+                <li><a href="#home">Todas as Categorias</a></li>
+            </ul>
+        </section>
+    </header>
+
+    <main>
+        
+        <section class="profile-container-wrapper">
+            <section class="profile-container">
+               
+                <div class="profile-section-1">
+                    <img src="/Imagens/perfil2.png" alt="Foto de Perfil" class="profile-photo">
+                    <nav class="profile-menu">
+                        <ul>
+                            <li><a href="#dadosPessoais">Dados Pessoais</a></li>
+                            <li><a href="#enderecos">Endereços</a></li>
+                            <li><a href="#pedidos">Pedidos</a></li>
+                            <li><a href="#cartoes">Cartões</a></li>
+                            <li><a href="#historico">Histórico</a></li>
+                            <li><a href="#autenticacao">Autenticação</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                
+                <div class="profile-section-2-container">
+                      <img class="seta" src="/Imagens/seta.png" alt="">
+                    <a  class="voltar">Voltar</a>
+                    <h2>Pedidos</h2>
+                    <div class="profile-section-2">
+                        <div>
+                            <div>
+                                <img class="request-img" src="/Imagens/andamento.png" alt="">
+                            </div>
+                            <div class="order-status-container">
+                                <div class="order-status">
+                                  <a href="#">Pedido Realizado</a>
+                                  <p>26/11/2023 03:30</p>
+                                </div>
+                                <div class="order-status">
+                                  <a href="#">Pedido Pago</a>
+                                  <p>28/11/2023 10:35</p>
+                                </div>
+                                <div class="order-status">
+                                  <a href="#">Pedido Enviado</a>
+                                  <p>29/11/2023 07:14</p>
+                                </div>
+                                <div class="order-status">
+                                  <a href="#">A caminho</a>
+                                  <p>30/11/2023 11:18</p>
+                                </div>
+                                <div class="order-status">
+                                  <a href="#">A Avaliar</a>
+                                  <p>(data)</p>
+                                </div>
+                              </div>
+                              
+                        </div>
+                    </div>                  
+                  <div class="info">
+                    <p>A tentativa de entrega será realizada até o dia 30/09/2024</p>  
+              <div class="botao">
+                <button>Pedido Recebido</button>
+                <button>Pedido de reembolso</button>
+                <button>Falar com vendedor</button>
+                <button>Pedido anteriores</button>
+              </div>
+                    <div class="adress">
+                        <h2>Endereço de Entrega</h2>
+                        <p class="info">Travessa Gustavo Lopes (Próximo à praça)</p>
+                        <p class="info">Campo Largo</p>
+                        <p class="info">Recife, Pernambuco, 01.001-001</p>
+                    </div>
+                </div>
+                </div>       
+            </section>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <a href="/paginas/home.html">
+            <img src="/Imagens/logo.png" alt="logo" class="logo2">
+        </a>
+        <div class="contatos1">
+            <h3>Institucional</h3>
+            <ul>
+                <li><a href="#nossalojas">Nossa Lojas</a></li>
+                <li><a href="#sejaumfranqueado">Seja um franqueado</a></li>
+                <li><a href="#farmatechnamidia">Farmatech na mídia</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#faleconosco">Fale conosco</a></li>
+            </ul>
+        </div>
+        <div class="contatos2">
+            <h3>Produtos</h3>
+            <ul>
+                <li><a href="#analgesico">Analgésico</a></li>
+                <li><a href="#ant-inflamatorio">Anti-inflamatório</a></li>
+                <li><a href="#antibiotico">Antibiótico</a></li>
+                <li><a href="#anti-alergico">Anti-alérgico</a></li>
+            </ul>
+        </div>
+        <div class="contatos3">
+            <h3>Políticas de venda</h3>
+            <ul>
+                <li><a href="#politicadevendas">Política de vendas</a></li>
+                <li><a href="#fretegratis">Frete grátis</a></li>
+                <li><a href="#problemadeentrega">Problemas de entrega</a></li>
+                <li><a href="#termosdeuso">Termos de uso</a></li>
+                <li><a href="#politicadeprivacidade">Política de privacidade</a></li>
+            </ul>
+        </div>
+        <div class="redes">
+            <h3>Siga-nos:</h3>
+            <a href="">
+                <img src="/Imagens/insta.png" alt="insta">
+            </a>
+            <a href="">
+                <img src="/Imagens/face.png" alt="insta">
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
